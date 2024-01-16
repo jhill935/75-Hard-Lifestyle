@@ -19,6 +19,7 @@
 		077C82142B562BEF00492B71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		077C82162B562BF200492B71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		077C82192B562BF200492B71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		077C82202B562D8F00492B71 /* -5-Hard-Lifestyle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-5-Hard-Lifestyle-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		077C82112B562BEF00492B71 /* 75 Hard Lifestyle */ = {
 			isa = PBXGroup;
 			children = (
+				077C82202B562D8F00492B71 /* -5-Hard-Lifestyle-Info.plist */,
 				077C82122B562BEF00492B71 /* _5_Hard_LifestyleApp.swift */,
 				077C82142B562BEF00492B71 /* ContentView.swift */,
 				077C82162B562BF200492B71 /* Assets.xcassets */,
@@ -275,11 +277,17 @@
 				DEVELOPMENT_TEAM = 33CHCTD926;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-5-Hard-Lifestyle-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "75 Hard Lifestyle";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = track;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = track;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = pictures;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -288,6 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jhillapps.-5-Hard-Lifestyle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,11 +313,17 @@
 				DEVELOPMENT_TEAM = 33CHCTD926;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-5-Hard-Lifestyle-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "75 Hard Lifestyle";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = track;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = track;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = pictures;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
