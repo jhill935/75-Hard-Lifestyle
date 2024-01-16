@@ -271,6 +271,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"75 Hard Lifestyle/Preview Content\"";
@@ -280,9 +281,9 @@
 				INFOPLIST_FILE = "-5-Hard-Lifestyle-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "75 Hard Lifestyle";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = track;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = track;
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = pictures;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "track stats";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "track stats";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "progress pictures";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +308,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"75 Hard Lifestyle/Preview Content\"";
@@ -316,9 +318,9 @@
 				INFOPLIST_FILE = "-5-Hard-Lifestyle-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "75 Hard Lifestyle";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = track;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = track;
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = pictures;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "track stats";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "track stats";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "progress pictures";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
