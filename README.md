@@ -1,5 +1,7 @@
 # 75 Hard Lifestyle App
 
+## View live demo from AppOnDisplay.mp4
+
 **Created by Jackson Hill**
 
 The 75 Hard Lifestyle App is a Swift-based iOS application designed to help users track their progress through the 75 Hard Challenge. It combines features like meal planning, workout tracking, budgeting, running sessions, and profile management into an intuitive and visually appealing interface.
