@@ -1,6 +1,6 @@
 # 75 Hard Lifestyle App
 
-## View live demo from AppOnDisplay.mp4
+## View live demo from AppOnDisplay.mp4 and selecting view raw!
 
 **Created by Jackson Hill**
 
